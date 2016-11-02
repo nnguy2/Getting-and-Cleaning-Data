@@ -46,7 +46,7 @@ Contains R codes to meets the criteria of the following course objectives
 
     4 Appropriately labels the data set with descriptive variable names. This was done in Step 1.2
 
-    5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Write dataset to .txt file
+    5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Used "aggregrate" function to find mean of variables by subjectId, activityType. Write dataset to .txt file
 
 
 Datasets:
