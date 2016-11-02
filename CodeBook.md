@@ -22,45 +22,65 @@ Contains R codes to meets the criteria of the following course objectives;
 0.0 Set work directory, download data, and unzip data
 
 1 Merge the training and the test sets to create one data set.
-  1.1 Load datasets
-    1.1.1 Load training datasets
-    1.1.2 Load test datasets
-    1.1.3 Load Feature datasets
-  1.2 Label Columns (Step 4 Label data set with descriptive labels)
-  1.3 Merge the dataset to create UCIHARDataAll with all data
+
+1.1 Load datasets
+    
+1.1.1 Load training datasets
+
+1.1.2 Load test datasets
+
+1.1.3 Load Feature datasets
+
+1.2 Label Columns (Step 4 Label data set with descriptive labels)
+
+1.3 Merge the dataset to create UCIHARDataAll with all data
 
 2 Extracts only the measurements on the mean and standard deviation for each measurement. 
-  2.1 Extra column names
-  2.2 Create vector identifying ID, mean, and std 
-  2.3 Subset data with only mean and std measurements			 				 
+
+2.1 Extra column names
+
+2.2 Create vector identifying ID, mean, and std 
+
+2.3 Subset data with only mean and std measurements			 				 
 
 3 Uses descriptive activity names to name the activities in the data set
 
 4 Appropriately labels the data set with descriptive variable names. This was done in Step 1.2
 
-5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  5.1 Reorder column to make activityType as 3rd column (was last column)
-  5.2 Write dataset to .txt file
-
-
+5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Write dataset to .txt file
 
 
 Datasets:
-  -x_train: Training set.
-  -y_train: Training labels.
-  -subject_test:  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
-  -x_test: Test set.
-  -y_test:  Test labels.
-  -features:  List of all features.
-  -subject_test : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
-  -activity_labels: Links the class labels with their activity name.
-  -features:  List of all features.
-  -merge_test : Merged dataset containing subject_train, x_train, y_train
-  -merge_train : Merged dataset containing subject_test, x_test, y_test
-  -UCIHARDataAll : Dataset containing all data.
-  -UCIHARDataMeanSTD : Sorted subset of UCIHARDataAll containing only measurements on the mean and standard deviations for each measure  
-  -UCIHARDataAnalyis: UCIHARDataMeanSTD with activity labels
-  -UCIHARDataTidy : Final Tidy dataset, sorted by subjectID
+
+-x_train: Training set.
+
+-y_train: Training labels.
+
+-subject_test:  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
+
+-x_test: Test set.
+
+-y_test:  Test labels.
+
+-features:  List of all features.
+
+-subject_test : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+
+-activity_labels: Links the class labels with their activity name.
+
+-features:  List of all features.
+
+-merge_test : Merged dataset containing subject_train, x_train, y_train
+
+-merge_train : Merged dataset containing subject_test, x_test, y_test
+
+-UCIHARDataAll : Dataset containing all data.
+
+-UCIHARDataMeanSTD : Sorted subset of UCIHARDataAll containing only measurements on the mean and standard deviations for each measure  
+ 
+ -UCIHARDataAnalyis: UCIHARDataMeanSTD with activity labels
+ 
+ -UCIHARDataTidy : Final Tidy dataset, sorted by subjectID
   
 Variable Names:
  Signals were used to estimate variables of the feature vector for each pattern:  
