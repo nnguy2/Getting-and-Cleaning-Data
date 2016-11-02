@@ -19,29 +19,29 @@ Contains R codes to meets the criteria of the following course objectives;
 -   From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity 
     and each subject.
     
-0.0 Set work directory, download data, and unzip data
+0.0 Set work directory, download data, and unzip data. Update as necessary.
 
 1 Merge the training and the test sets to create one data set.
 
-1.1 Load datasets
-    
-1.1.1 Load training datasets
+    1.1 Load datasets
 
-1.1.2 Load test datasets
+        1.1.1 Load training datasets
 
-1.1.3 Load Feature datasets
+        1.1.2 Load test datasets
 
-1.2 Label Columns (Step 4 Label data set with descriptive labels)
+        1.1.3 Load Feature datasets
 
-1.3 Merge the dataset to create UCIHARDataAll with all data
+    1.2 Label Columns (Step 4 Label data set with descriptive labels)
+
+    1.3 Merge the dataset to create UCIHARDataAll with all data
 
 2 Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-2.1 Extra column names
+    2.1 Extra column names
 
-2.2 Create vector identifying ID, mean, and std 
+    2.2 Create vector identifying ID, mean, and std 
 
-2.3 Subset data with only mean and std measurements			 				 
+    2.3 Subset data with only mean and std measurements			 				 
 
 3 Uses descriptive activity names to name the activities in the data set
 
