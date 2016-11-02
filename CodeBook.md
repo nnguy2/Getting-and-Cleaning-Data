@@ -11,12 +11,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 
 R Script:
-Contains R codes to meets the criteria of the following course objectives;
--   Merges the training and the test sets to create one data set.
--   Extracts only the measurements on the mean and standard deviation for each measurement.
--   Uses descriptive activity names to name the activities in the data set
--   Appropriately labels the data set with descriptive variable names.
--   From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity  and each subject.
+Contains R codes to meets the criteria of the following course objectives
+    -   Merges the training and the test sets to create one data set.
+    -   Extracts only the measurements on the mean and standard deviation for each measurement.
+    -   Uses descriptive activity names to name the activities in the data set
+    -   Appropriately labels the data set with descriptive variable names.
+    -   From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity  and each subject.
     
     0.0 Set work directory, download data, and unzip data. Update as necessary.
 
@@ -51,35 +51,35 @@ Contains R codes to meets the criteria of the following course objectives;
 
 Datasets:
 
--x_train: Training set.
+    -x_train: Training set.
 
--y_train: Training labels.
+    -y_train: Training labels.
 
--subject_test:  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
+    -subject_test:  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
 
--x_test: Test set.
+    -x_test: Test set.
 
--y_test:  Test labels.
+    -y_test:  Test labels.
 
--features:  List of all features.
+    -features:  List of all features.
 
--subject_test : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+    -subject_test : Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
--activity_labels: Links the class labels with their activity name.
+    -activity_labels: Links the class labels with their activity name.
 
--features:  List of all features.
+    -features:  List of all features.
 
--merge_test : Merged dataset containing subject_train, x_train, y_train
+    -merge_test : Merged dataset containing subject_train, x_train, y_train
 
--merge_train : Merged dataset containing subject_test, x_test, y_test
+    -merge_train : Merged dataset containing subject_test, x_test, y_test
 
--UCIHARDataAll : Dataset containing all data.
+    -UCIHARDataAll : Dataset containing all data.
 
--UCIHARDataMeanSTD : Sorted subset of UCIHARDataAll containing only measurements on the mean and standard deviations for each measure  
- 
- -UCIHARDataAnalyis: UCIHARDataMeanSTD with activity labels
- 
- -UCIHARDataTidy : Final Tidy dataset, sorted by subjectID
+    -UCIHARDataMeanSTD : Sorted subset of UCIHARDataAll containing only measurements on the mean and standard deviations for each measure  
+
+    -UCIHARDataAnalyis: UCIHARDataMeanSTD with activity labels
+
+    -UCIHARDataTidy : Final Tidy dataset, sorted by subjectID
   
 Variable Names:
  Signals were used to estimate variables of the feature vector for each pattern:  
